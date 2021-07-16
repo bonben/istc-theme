@@ -24,6 +24,8 @@
         {{if  $.Site.Params.maintitle }}{{ $.Site.Params.maintitle }}{{else}}Hello, World{{end}}
       </div>
       <div class="text text-xl text-center">{{if $.Site.Params.maintext}}{{ $.Site.Params.maintext }}{{else}}Edit config.toml/params{{end}}</div>
+      <div class="text text-xl text-center">{{if $.Site.Params.secondtext}}{{ $.Site.Params.secondtext }}{{else}}Edit config.toml/params{{end}}</div>
+      <div class="text text-xl text-center">{{if $.Site.Params.thirdtext}}{{ $.Site.Params.thirdtext }}{{else}}Edit config.toml/params{{end}}</div>
     </div>
   </div>
   {{ $data := .Site.Data.home }}
